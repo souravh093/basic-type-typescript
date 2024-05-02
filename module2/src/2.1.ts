@@ -7,18 +7,29 @@
 
   anything as number;
 
-  const kgToGm = (value: string | number): string | number | undefined => {
+  const kgToGm = (value: number | string): number | string | undefined => {
     if (typeof value === "string") {
-      const convertNumber = parseFloat(value) * 1000;
-      return `the converted value is ${convertNumber}`;
+      const converted = parseFloat(value) * 1000;
+      return `this is my converted type result ${converted}`;
     } else if (typeof value === "number") {
       return value * 1000;
     }
   };
 
+  const result1 = kgToGm(5000) as number;
+  const result2 = kgToGm("5000") as string;
 
-  const result1 = kgToGm(1000) as number;
-  const result2 = kgToGm("552") as string;
+  console.log(result1, result2);
 
-  console.log(result1, result2)
+  console.log(result1, result2);
+
+  type CustomError = {
+    message: string;
+  };
+
+  try {
+    
+  } catch (error) {
+    console.log((error as CustomError).message);
+  }
 }
