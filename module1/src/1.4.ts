@@ -7,7 +7,7 @@ let firstName: string = "Sourave";
 let rollNumber: number = 123;
 
 // boolean
-let isStudent = true;
+let isStudent: boolean = true;
 
 // undefined
 let x: undefined = undefined;
@@ -15,7 +15,7 @@ let x: undefined = undefined;
 // null
 let y: null = null;
 
-let s: number;
+let s;
 
 s = 123;
 

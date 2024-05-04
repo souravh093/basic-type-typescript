@@ -1,9 +1,9 @@
 {
-  // spred operator
+  // spread operator
   const bros1: string[] = ["Rana", "Munna", "Somik"];
   const bros2: string[] = ["Niyam", "Rj", "Gokul"];
 
-  //   bros1.push(...bros2);
+  bros1.push(...bros2);
 
   const mentor1 = {
     typecript: "Mezba",
@@ -32,5 +32,4 @@
   };
 
   greetFriends("Sourav", "Abul", "Kalam");
-
 }
