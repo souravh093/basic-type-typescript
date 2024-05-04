@@ -1,9 +1,9 @@
 "use strict";
 {
-    // spred operator
+    // spread operator
     const bros1 = ["Rana", "Munna", "Somik"];
     const bros2 = ["Niyam", "Rj", "Gokul"];
-    //   bros1.push(...bros2);
+    bros1.push(...bros2);
     const mentor1 = {
         typecript: "Mezba",
         redux: "Mir",

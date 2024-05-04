@@ -12,7 +12,7 @@ var _a, _b;
     console.log({ isAdult });
     //   nullish coalescing operator
     // null / undefined --->> decision making
-    const isAuthenticated = "";
+    const isAuthenticated = 0;
     const result = isAuthenticated !== null && isAuthenticated !== void 0 ? isAuthenticated : "Guest";
     const result2 = isAuthenticated ? isAuthenticated : "Guest";
     console.log({ result }, { result2 });
