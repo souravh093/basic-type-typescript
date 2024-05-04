@@ -15,7 +15,7 @@
    return data;
   }
 
-  console.log(getTodo())
+  console.log(getTodo().then(data => console.log(data)))
 
   type Something = { something: string };
   const createPromise = (): Promise<Something> => {
@@ -31,12 +31,11 @@
   };
 
   //   calling createPromise function
-
   const showData = async (): Promise<Something> => {
     const data: Something = await createPromise();
     return data;
   };
 
   const result3 = showData();
-  console.log(result3);
+  console.log(result3.then(data => console.log(data)));
 }

@@ -26,10 +26,6 @@ type Something = {
     [key in keyof AreaNumber] : string;
 }
 
-conat area3 = {
-    
-}
-
 type AreaString<T> = {
     [key in keyof T ] : T[key]
 }
