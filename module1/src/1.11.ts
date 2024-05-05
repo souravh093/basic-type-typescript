@@ -1,5 +1,5 @@
 {
-  // ternary operator || Optional chaining || nullish colescing operator
+  // ternary operator || Optional chaining || nullish coalescing operator
 
   const age: number = 20;
 

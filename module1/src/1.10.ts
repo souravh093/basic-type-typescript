@@ -22,7 +22,7 @@
       bloodGroup: "O+",
     };
 
-  // Intersation Type
+  // Intersection Type
   type FrontendDeveloper = {
     skills: string[];
     designation1: "Frontend Developer";
