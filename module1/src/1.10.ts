@@ -40,3 +40,12 @@
     designation2: "Backend Developer",
   };
 }
+
+
+const a = "aa";
+const b = "bb";
+const c = "cc";
+
+if(a || b) {
+  console.log("Hello World!")
+}

@@ -29,12 +29,12 @@
 
     // Record 
     type MyObj = Record<string, string | number>
-    type MyObj2 = Record<string, unknown>
+    type MyObj2 = Record<string, string>
 
     const obj1: MyObj2 = {
         a: "a",
         b: "b",
         c: "c",
-        d: 23
+        d: '23'
     }
 }
